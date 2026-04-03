@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-the-auto-tuner-in-srcenginekalman-tune",
+  "branch": "simba/implement-the-hysteresis-state-machine-in-srceng",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
