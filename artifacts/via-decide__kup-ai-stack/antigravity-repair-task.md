@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Sovereign Firewall' in src/security/warden.sh. Implement a rate-limiting rule that drops any IP making >100 requests per minute unless they carry a 'Founder-Key.'
+Implement the 'Ministry Dashboard' in src/web/government-portal.js. Create a high-signal, dark-mode visualization of: 1) Total Lives Protected, 2) Blowouts Prevented, and 3) Economic Savings for the Transport Sector.
 
 RULES
 1. Audit touched files first and identify regressions.
