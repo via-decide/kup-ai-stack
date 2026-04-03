@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Cloud-Agnostic-Adapter' in src/ops/multi-cloud.js. Abstract the LLM calls into a single SovereignRequest() function.
+Implement the 'S-Kernel' memory manager in src/core/kernel.cpp. Create a pre-allocated memory pool for sensor shards to bypass the garbage collector during 10k+ RPM bursts.
 
 CONSTRAINTS
-- Implement 'Hot-Swapping' logic that switches providers in <50ms based on 'Cost-per-Token' and 'Latency.' - Maintain the ₹36.75 efficiency target regardless of the provider. - Log "PROVIDER_SWITCHED: [OLD_PROVIDER] -> [NEW_PROVIDER]".
+- Use the 'Sovereign' allocation strategy: $Mem_{alloc} = N \cdot (\text{Payload}_{size} + \text{Filter}_{state})$. - Ensure sub-1ms context switching between the 30 founder threads. - Log "KERNEL_INIT: MEMORY_POOL_SECURED | ZERO_GC_LATENCY".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
