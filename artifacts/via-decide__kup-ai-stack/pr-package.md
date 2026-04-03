@@ -1,9 +1,9 @@
-Branch: simba/implement-the-ministry-dashboard-in-srcwebgovern
-Title: Implement the 'Ministry Dashboard' in src/web/government-portal.js. C...
+Branch: simba/build-the-regional-profile-manager-in-srcengineg
+Title: Build the 'Regional Profile Manager' in src/engine/geo-config.js. All...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Ministry Dashboard' in src/web/government-portal.js. Create a high-signal, dark-mode visualization of: 1) Total Lives Protected, 2) Blowouts Prevented, and 3) Economic Savings for the Transport Sector.
+- Goal: Build the 'Regional Profile Manager' in src/engine/geo-config.js. Allow the system to load different $K_{gain}$ and $P_{ref}$ constants based on the Site-ID (e.g., Kutch vs. Himachal).
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
