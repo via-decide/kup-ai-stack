@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
+Build the 'Sovereign Context Compressor' in src/ai/context-refinery.js.
 
 RULES
 1. Audit touched files first and identify regressions.
