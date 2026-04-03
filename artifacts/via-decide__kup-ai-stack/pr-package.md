@@ -1,9 +1,9 @@
-Branch: simba/build-the-self-evolving-loop-in-srcenginedynamic
-Title: Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
+Branch: simba/implement-the-federated-aggregator-in-srcenginew
+Title: Implement the 'Federated-Aggregator' in src/engine/weight-sync.py. Cr...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
+- Goal: Implement the 'Federated-Aggregator' in src/engine/weight-sync.py. Create a secure endpoint for founders to push their local .bin weight deltas.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
