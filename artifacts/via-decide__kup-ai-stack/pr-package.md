@@ -1,9 +1,9 @@
-Branch: simba/implement-the-data-quality-auditor-in-srcquality
-Title: Implement the 'Data Quality Auditor' in src/quality/six-dimensions.js...
+Branch: simba/build-the-alert-refiner-in-srcalertscontext-engi
+Title: Build the 'Alert Refiner' in src/alerts/context-engine.js. Update the...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Data Quality Auditor' in src/quality/six-dimensions.js. Create a validation gate that scores every vehicle passage on: 1) Accuracy, 2) Completeness, 3) Consistency, 4) Timeliness, 5) Validity, and 6) Uniqueness.
+- Goal: Build the 'Alert Refiner' in src/alerts/context-engine.js. Update the alert pipeline to inject high-signal metadata: include current ambient temperature, vehicle speed, and a "Confidence Interval" ($CI$) for the blowout prediction.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

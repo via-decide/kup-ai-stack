@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Data Quality Auditor' in src/quality/six-dimensions.js. Create a validation gate that scores every vehicle passage on: 1) Accuracy, 2) Completeness, 3) Consistency, 4) Timeliness, 5) Validity, and 6) Uniqueness.
+Build the 'Alert Refiner' in src/alerts/context-engine.js. Update the alert pipeline to inject high-signal metadata: include current ambient temperature, vehicle speed, and a "Confidence Interval" ($CI$) for the blowout prediction.
 
 RULES
 1. Audit touched files first and identify regressions.
