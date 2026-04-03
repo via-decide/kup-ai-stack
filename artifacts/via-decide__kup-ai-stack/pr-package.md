@@ -1,9 +1,9 @@
-Branch: simba/implement-the-s-kernel-memory-manager-in-srccore
-Title: Implement the 'S-Kernel' memory manager in src/core/kernel.cpp. Creat...
+Branch: simba/implement-the-sovereign-token-optimizer-in-srcai
+Title: Implement the 'Sovereign-Token-Optimizer' in src/ai/token_refinery.js.
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'S-Kernel' memory manager in src/core/kernel.cpp. Create a pre-allocated memory pool for sensor shards to bypass the garbage collector during 10k+ RPM bursts.
+- Goal: Implement the 'Sovereign-Token-Optimizer' in src/ai/token_refinery.js.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
