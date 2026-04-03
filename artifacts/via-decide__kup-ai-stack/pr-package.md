@@ -1,9 +1,9 @@
-Branch: simba/implement-the-agent-switchboard-in-srcrouteragen
-Title: Implement the 'Agent Switchboard' in src/router/agent-router.js. Crea...
+Branch: simba/update-srcmiddlewarecredit-guardjs-to-recognize-
+Title: Update src/middleware/credit-guard.js to recognize a new user role: K...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Agent Switchboard' in src/router/agent-router.js. Create a POST /api/playground/chat endpoint that requires an agent_id parameter (e.g., 'edge-architect' or 'pipeline-enforcer'). The router must load the corresponding JSON template from the src/templates/ directory and inject it as the System Prompt for the Zayvora LLM call.
+- Goal: Update src/middleware/credit-guard.js to recognize a new user role: KUP_FOUNDER. If a user has this role, bypass the PhonePe credit deduction logic and allow unlimited 0-token prompts.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
