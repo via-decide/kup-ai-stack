@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-the-ministry-dashboard-in-srcwebgovern",
+  "branch": "simba/build-the-regional-profile-manager-in-srcengineg",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
