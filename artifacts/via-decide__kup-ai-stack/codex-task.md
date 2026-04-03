@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
+Implement the 'Federated-Aggregator' in src/engine/weight-sync.py. Create a secure endpoint for founders to push their local .bin weight deltas.
 
 CONSTRAINTS
-Preserve existing code; prefer additive changes.
+- Use the 'FedAvg' algorithm: $w_{t+1} = \sum_{k=1}^{K} \frac{n_k}{n} w_{t+1}^k$. - Verify the 'Sovereign-ID' of each node before merging to prevent 'Model Poisoning.' - Log "MASTER MODEL UPDATED: GLOBAL_ACCURACY: [X]%" in the terminal.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
