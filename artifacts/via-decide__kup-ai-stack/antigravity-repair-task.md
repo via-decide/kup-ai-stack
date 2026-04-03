@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Sovereign-Token-Optimizer' in src/ai/token_refinery.js.
+Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intelligence.py.
 
 RULES
 1. Audit touched files first and identify regressions.
