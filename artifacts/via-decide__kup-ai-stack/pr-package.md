@@ -1,9 +1,9 @@
-Branch: simba/implement-the-m4-resource-warden-in-srcopsload-b
-Title: Implement the 'M4 Resource Warden' in src/ops/load-balancer.js. Creat...
+Branch: simba/create-the-context-refinery-agent-template-in-sr
+Title: Create the 'Context-Refinery' Agent Template in src/templates/refiner...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'M4 Resource Warden' in src/ops/load-balancer.js. Create a queue system that limits concurrent LLM inference calls to 8 (the number of performance cores). Founders 9-30 should be placed in a "Sovereign Waiting Room" with a 2-second buffer.
+- Goal: Create the 'Context-Refinery' Agent Template in src/templates/refinery-agent.json. This agent's sole purpose is to "Pre-Process" raw JSON sensor packets. It must strip out non-essential metadata (e.g., redundant timestamps, sensor IDs) and only pass the "High-Signal" delta (pressure/temp changes) to the Vora model.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
