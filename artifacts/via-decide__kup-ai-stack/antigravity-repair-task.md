@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Chaos-Monkey' stress-tester in src/security/adversarial-inject.js. Simulate a 'Man-in-the-Middle' attack injecting false 60 PSI readings into the NH-41 stream.
+Implement 'Model-Distillation' in src/engine/distill.py. Use the Gemini 1.5 Flash outputs as 'Soft Targets' to train a lightweight 1D-CNN Student model.
 
 RULES
 1. Audit touched files first and identify regressions.
