@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'S-Kernel' memory manager in src/core/kernel.cpp. Create a pre-allocated memory pool for sensor shards to bypass the garbage collector during 10k+ RPM bursts.
+Implement the 'Sovereign-Token-Optimizer' in src/ai/token_refinery.js.
 
 CONSTRAINTS
-- Use the 'Sovereign' allocation strategy: $Mem_{alloc} = N \cdot (\text{Payload}_{size} + \text{Filter}_{state})$. - Ensure sub-1ms context switching between the 30 founder threads. - Log "KERNEL_INIT: MEMORY_POOL_SECURED | ZERO_GC_LATENCY".
+- Reduce prompt size by removing redundant telemetry tokens. - Use entropy filtering to maintain semantic fidelity. - Target compression ratio ≥ 80%. - Maintain response accuracy ≥ 0.9 cosine similarity. - Log "TOKEN_EFFICIENCY: 80_PERCENT_REDUCTION".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
