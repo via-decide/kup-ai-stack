@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'RUL-Engine' in src/engine/predictive-maintenance.js. Build a regression model that estimates the 'Remaining Useful Life' ($RUL$) of a tire.
+Build the 'Chaos-Monkey' stress-tester in src/security/adversarial-inject.js. Simulate a 'Man-in-the-Middle' attack injecting false 60 PSI readings into the NH-41 stream.
 
 CONSTRAINTS
-- Use the degradation formula: $RUL = \frac{P_{current} - P_{critical}}{\alpha \cdot \Delta T + \beta \cdot \frac{dP}{dt}}$. - Log "PREDICTION: BLOWOUT IN [X] KM" in the Sovereign terminal. - Ensure the model footprint is <5MB to keep the M4 Mac Mini RAM free for orchestration.
+- The system must flag these as 'NON-PHYSICAL_DRIFT' because $dP/dt$ exceeds the laws of thermodynamics. - Log "ATTACK NEUTRALIZED: [REASON]" in the Sovereign theme. - Ensure the 'Governor-Agent' alerts all 30 nodes of the signature.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
