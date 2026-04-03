@@ -1,9 +1,9 @@
-Branch: simba/develop-the-alert-escalation-service-in-srcalert
-Title: Develop the 'Alert Escalation' service in src/alerts/escalation-logic...
+Branch: simba/scaffold-the-edge-as-a-service-eaas-api-in-srcsa
+Title: Scaffold the 'Edge-as-a-Service' (EaaS) API in src/saas/edge-platform...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Develop the 'Alert Escalation' service in src/alerts/escalation-logic.js. [span_21](start_span)When the TPM model detects a 40% under-inflation blowout risk[span_21](end_span), the system must generate a structured context-engineered alert and send it to the 'Sprint Master' Telegram bot for human verification.
+- Goal: Scaffold the 'Edge-as-a-Service' (EaaS) API in src/saas/edge-platform-api.js. Create a multi-tenant architecture that allows external customers to upload their own sensor models for quantization and edge deployment via the Jetson Optimizer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
