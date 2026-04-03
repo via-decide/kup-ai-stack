@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Scaffold the 'Edge-as-a-Service' (EaaS) API in src/saas/edge-platform-api.js. Create a multi-tenant architecture that allows external customers to upload their own sensor models for quantization and edge deployment via the Jetson Optimizer.
+Implement the 'Enterprise Security Layer' in src/auth/enterprise-guard.js. Add multi-factor authentication (MFA) and data encryption-at-rest for sensor payloads uploaded by external IoT customers.
 
 RULES
 1. Audit touched files first and identify regressions.
