@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement 'Data Sharder' in src/data/sharding-engine.js. Automatically split the 100K passage stream into 1,000-vehicle Parquet shards.
+Build the 'Drift Mitigator' in src/engine/kalman-filter.js. Implement a 1D Kalman Filter to estimate the hidden state of tire pressure.
 
 RULES
 1. Audit touched files first and identify regressions.
