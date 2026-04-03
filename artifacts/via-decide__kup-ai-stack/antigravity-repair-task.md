@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement 'Model-Distillation' in src/engine/distill.py. Use the Gemini 1.5 Flash outputs as 'Soft Targets' to train a lightweight 1D-CNN Student model.
+Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
 
 RULES
 1. Audit touched files first and identify regressions.
