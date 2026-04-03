@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js. Create a buffer that requires 3 consecutive 'CRITICAL' readings from the Kalman Filter before firing a global alert.
+Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. Create a race condition monitor that pings both the local Vora endpoint and the Gemini API.
 
 RULES
 1. Audit touched files first and identify regressions.
