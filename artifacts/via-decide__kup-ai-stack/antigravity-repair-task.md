@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Shadow Mode Comparator' in src/eval/shadow-runner.js. Create a service that ingests live highway data and runs the 'Sovereign' model in the background. It must log every "Predicted Blowout" and then wait for the ground-truth outcome (or manual sensor verification) to calculate real-world precision and recall.
+Implement the 'M4 Resource Warden' in src/ops/load-balancer.js. Create a queue system that limits concurrent LLM inference calls to 8 (the number of performance cores). Founders 9-30 should be placed in a "Sovereign Waiting Room" with a 2-second buffer.
 
 RULES
 1. Audit touched files first and identify regressions.
