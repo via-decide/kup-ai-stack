@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intelligence.py.
+Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/global-executor.js.
 
 RULES
 1. Audit touched files first and identify regressions.
