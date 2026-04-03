@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'M4 Resource Warden' in src/ops/load-balancer.js. Create a queue system that limits concurrent LLM inference calls to 8 (the number of performance cores). Founders 9-30 should be placed in a "Sovereign Waiting Room" with a 2-second buffer.
+Create the 'Context-Refinery' Agent Template in src/templates/refinery-agent.json. This agent's sole purpose is to "Pre-Process" raw JSON sensor packets. It must strip out non-essential metadata (e.g., redundant timestamps, sensor IDs) and only pass the "High-Signal" delta (pressure/temp changes) to the Vora model.
 
 RULES
 1. Audit touched files first and identify regressions.
