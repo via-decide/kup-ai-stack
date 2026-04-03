@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Drift Mitigator' in src/engine/kalman-filter.js. Implement a 1D Kalman Filter to estimate the hidden state of tire pressure.
+Implement the 'Auto-Tuner' in src/engine/kalman-tuner.js. Create a feedback loop where the 'Edge Architect' agent analyzes the residual error of the Kalman Filter.
 
 CONSTRAINTS
-- Use the standard update equation: $\hat{x}_k = \hat{x}_{k-1} + K_k(z_k - \hat{x}_{k-1})$, where $K_k$ is the Kalman Gain. - The 'Edge Architect' agent must verify that the filter reduces "Scenario 2" variance by >60% without adding >10ms of latency to the Jetson Orin.
+- The agent must adjust the $R$ parameter dynamically as the temperature $T$ moves from 20°C to 48°C.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
@@ -17,7 +17,7 @@ PROCESS (MANDATORY)
 
 REPO AUDIT CONTEXT
 - Description: 
-- Primary language: unknown
+- Primary language: Shell
 - README snippet:
 # kup-ai-stack
 
