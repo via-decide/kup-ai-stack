@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Sovereign Feature Store' in src/features/store-manager.js. [span_6](start_span)Create a centralized service that extracts identical vehicle passage features (pressure, temp-drift, speed) for both training (Digital Twin) and serving (Edge Jetson).[span_6](end_span)
+Implement the 'Sovereign Billing Bridge' in src/saas/phonepe-billing.js. Integrate the PhonePe API to handle multi-tenant subscriptions (Starter, Pro, Enterprise).
 
 CONSTRAINTS
-Use the Sovereign theme to log feature extraction latency. [span_7](start_span)[span_8](start_span)If the training/serving features deviate by >1%, trigger a 'Skew Alert' to the 'Quality Reviewer' agent.[span_7](end_span)[span_8](end_span)
+Even for paid tiers, the 'KUP_FOUNDER' 0-token bypass must remain active. Use the Sovereign theme to log "SUBSCRIPTION RENEWED: [TENANT_ID]".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
