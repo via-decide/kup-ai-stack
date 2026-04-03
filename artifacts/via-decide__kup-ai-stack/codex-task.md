@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Agent Switchboard' in src/router/agent-router.js. Create a POST /api/playground/chat endpoint that requires an agent_id parameter (e.g., 'edge-architect' or 'pipeline-enforcer'). The router must load the corresponding JSON template from the src/templates/ directory and inject it as the System Prompt for the Zayvora LLM call.
+Update src/middleware/credit-guard.js to recognize a new user role: KUP_FOUNDER. If a user has this role, bypass the PhonePe credit deduction logic and allow unlimited 0-token prompts.
 
 CONSTRAINTS
-Use the "Sovereign" dark-mode theme for terminal logging to show which agent is being invoked. Ensure that the agent's identity is "locked" for the duration of the session to prevent context bleeding between curriculum tasks.
+Even though the fee is 0, the system MUST still log the "Shadow Cost" (what it would have cost in compute) to the logs/compute-analytics.log file. [span_0](start_span)[span_1](start_span)This is critical for the "Operational Excellence" and "Cost-per-lane" metrics identified in the Strategic Framework[span_0](end_span)[span_1](end_span).
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
