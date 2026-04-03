@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Ministry Dashboard' in src/web/government-portal.js. Create a high-signal, dark-mode visualization of: 1) Total Lives Protected, 2) Blowouts Prevented, and 3) Economic Savings for the Transport Sector.
+Build the 'Regional Profile Manager' in src/engine/geo-config.js. Allow the system to load different $K_{gain}$ and $P_{ref}$ constants based on the Site-ID (e.g., Kutch vs. Himachal).
 
 CONSTRAINTS
-- Ensure the data is pulled directly from the 'Hysteresis Machine' to guarantee 100% truth. - Include a 'Physical Site Live' status that pulses every time a vehicle passes the NH-41 sensor.
+- Use a JSON config for "Regional Baselines" (e.g., 48°C for Gujarat, 15°C for Leh). - Ensure the 'Hybrid-Brain Router' can switch profiles in <10ms.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
