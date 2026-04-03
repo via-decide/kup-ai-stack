@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Cloud-Agnostic-Adapter' in src/ops/multi-cloud.js. Abstract the LLM calls into a single SovereignRequest() function.
+Implement the 'S-Kernel' memory manager in src/core/kernel.cpp. Create a pre-allocated memory pool for sensor shards to bypass the garbage collector during 10k+ RPM bursts.
 
 RULES
 1. Audit touched files first and identify regressions.

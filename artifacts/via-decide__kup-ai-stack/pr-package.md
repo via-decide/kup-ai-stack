@@ -1,9 +1,9 @@
-Branch: simba/implement-the-cloud-agnostic-adapter-in-srcopsmu
-Title: Implement the 'Cloud-Agnostic-Adapter' in src/ops/multi-cloud.js. Abs...
+Branch: simba/implement-the-s-kernel-memory-manager-in-srccore
+Title: Implement the 'S-Kernel' memory manager in src/core/kernel.cpp. Creat...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Cloud-Agnostic-Adapter' in src/ops/multi-cloud.js. Abstract the LLM calls into a single SovereignRequest() function.
+- Goal: Implement the 'S-Kernel' memory manager in src/core/kernel.cpp. Create a pre-allocated memory pool for sensor shards to bypass the garbage collector during 10k+ RPM bursts.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
