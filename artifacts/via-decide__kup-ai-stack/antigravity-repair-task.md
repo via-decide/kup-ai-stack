@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Sovereign Feature Store' in src/features/store-manager.js. [span_6](start_span)Create a centralized service that extracts identical vehicle passage features (pressure, temp-drift, speed) for both training (Digital Twin) and serving (Edge Jetson).[span_6](end_span)
+Implement the 'Sovereign Billing Bridge' in src/saas/phonepe-billing.js. Integrate the PhonePe API to handle multi-tenant subscriptions (Starter, Pro, Enterprise).
 
 RULES
 1. Audit touched files first and identify regressions.
