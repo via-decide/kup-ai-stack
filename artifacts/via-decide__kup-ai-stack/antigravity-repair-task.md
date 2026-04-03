@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Enterprise Security Layer' in src/auth/enterprise-guard.js. Add multi-factor authentication (MFA) and data encryption-at-rest for sensor payloads uploaded by external IoT customers.
+Implement a GitHub Actions workflow in .github/workflows/sovereign-gate.yml. This workflow must run every time a founder submits a PR. It should: 1) Run a linter to check for 'Context Rot' patterns, 2) Verify that new code doesn't increase inference latency by >5%, and 3) Ensure all new environment variables are documented.
 
 RULES
 1. Audit touched files first and identify regressions.
