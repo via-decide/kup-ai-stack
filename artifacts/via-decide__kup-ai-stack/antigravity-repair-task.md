@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/global-executor.js.
+Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
 
 RULES
 1. Audit touched files first and identify regressions.
