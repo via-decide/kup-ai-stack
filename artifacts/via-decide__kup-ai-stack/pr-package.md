@@ -1,9 +1,9 @@
-Branch: simba/build-the-drift-mitigator-in-srcenginekalman-fil
-Title: Build the 'Drift Mitigator' in src/engine/kalman-filter.js. Implement...
+Branch: simba/implement-the-auto-tuner-in-srcenginekalman-tune
+Title: Implement the 'Auto-Tuner' in src/engine/kalman-tuner.js. Create a fe...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Drift Mitigator' in src/engine/kalman-filter.js. Implement a 1D Kalman Filter to estimate the hidden state of tire pressure.
+- Goal: Implement the 'Auto-Tuner' in src/engine/kalman-tuner.js. Create a feedback loop where the 'Edge Architect' agent analyzes the residual error of the Kalman Filter.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
