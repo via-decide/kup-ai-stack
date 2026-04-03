@@ -1,9 +1,9 @@
-Branch: simba/implement-the-sovereign-circuit-breaker-in-srcop
-Title: Implement the 'Sovereign Circuit Breaker' in src/ops/circuit-breaker....
+Branch: simba/build-the-sovereign-firewall-in-srcsecuritywarde
+Title: Build the 'Sovereign Firewall' in src/security/warden.sh. Implement a...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Sovereign Circuit Breaker' in src/ops/circuit-breaker.js. Create a state-machine with three states: [CLOSED (Normal)], [OPEN (Local-Only)], and [HALF-OPEN (Test-Cloud)].
+- Goal: Build the 'Sovereign Firewall' in src/security/warden.sh. Implement a rate-limiting rule that drops any IP making >100 requests per minute unless they carry a 'Founder-Key.'
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
