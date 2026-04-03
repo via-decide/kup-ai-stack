@@ -1,9 +1,9 @@
-Branch: simba/implement-the-physical-alert-bridge-in-srcalerts
-Title: Implement the 'Physical Alert Bridge' in src/alerts/print-by-dd-link....
+Branch: simba/implement-the-self-healing-fleet-monitor-in-srco
+Title: Implement the 'Self-Healing Fleet Monitor' in src/ops/self-heal.js. D...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Physical Alert Bridge' in src/alerts/print-by-dd-link.js. When Vora identifies a high-probability blowout risk (>90%), the system must automatically generate a 3D-printable "Hazard Tag" or "QR-Alert Token" manifest for the PrintByDD interface.
+- Goal: Implement the 'Self-Healing Fleet Monitor' in src/ops/self-heal.js. Develop a service that monitors the health of all 20+ highway lanes. [span_17](start_span)If a Jetson Orin node reports a "Context Rot" or "Training-Serving Skew" anomaly, the system must automatically trigger a remote re-calibration using the digital twin's ground truth. [cite: 5, 21-22]
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
