@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Drift Analyzer' module in src/analytics/drift-engine.js. This module must compare the ground-truth data from the digital twin against the LLM/Model predictions. [span_9](start_span)It must specifically calculate the accuracy drop for every 5°C increase between 20°C and 48°C[span_9](end_span). [span_10](start_span)[span_11](start_span)constraints: Output the results in a CSV format ready for AAAI/NeurIPS paper submission[span_10](end_span)[span_11](end_span). [span_12](start_span)[span_13](start_span)Ensure the "Context Rot" detection logic is active during these high-temperature simulations[span_12](end_span)[span_13](end_span).
+Develop the 'Alert Escalation' service in src/alerts/escalation-logic.js. [span_21](start_span)When the TPM model detects a 40% under-inflation blowout risk[span_21](end_span), the system must generate a structured context-engineered alert and send it to the 'Sprint Master' Telegram bot for human verification.
 
 CONSTRAINTS
-Preserve existing code; prefer additive changes.
+The response time from detection to Telegram alert must be under 2 seconds. Use the Sovereign theme to log "CRITICAL ALERT: HUMAN VERIFICATION PENDING".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
