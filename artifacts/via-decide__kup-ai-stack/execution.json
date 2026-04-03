@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-the-context-refinery-agent-template-in-sr",
+  "branch": "simba/implement-the-data-quality-auditor-in-srcquality",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",

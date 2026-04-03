@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Create the 'Context-Refinery' Agent Template in src/templates/refinery-agent.json. This agent's sole purpose is to "Pre-Process" raw JSON sensor packets. It must strip out non-essential metadata (e.g., redundant timestamps, sensor IDs) and only pass the "High-Signal" delta (pressure/temp changes) to the Vora model.
+Implement the 'Data Quality Auditor' in src/quality/six-dimensions.js. Create a validation gate that scores every vehicle passage on: 1) Accuracy, 2) Completeness, 3) Consistency, 4) Timeliness, 5) Validity, and 6) Uniqueness.
 
 CONSTRAINTS
-Use the Sovereign theme to log "SIGNAL PURIFIED: [X] bytes removed". This reduces token usage by 30%, preserving the 'Decision Budget' for complex reasoning.
+If a passage score falls below 0.85, the 'Refinery Agent' must flag it for "Synthetic Re-sampling." Use the Sovereign theme to log a "QUALITY AUDIT: [SCORE]" for every batch of 1,000 vehicles.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
