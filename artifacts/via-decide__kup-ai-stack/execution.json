@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/develop-the-tenant-provisioning-service-in-srcsa",
+  "branch": "simba/implement-the-vora-protocol-tuner-in-srctraining",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",

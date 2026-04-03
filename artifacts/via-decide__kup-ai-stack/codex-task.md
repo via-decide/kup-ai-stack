@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Develop the 'Tenant Provisioning Service' in src/saas/tenant-onboarding.js. Automate the creation of secure, isolated sandbox environments for new SaaS customers.
+Implement the 'Vora Protocol Tuner' in src/training/vora-finetune.py. Create a pipeline to fine-tune the local Vora model on the 'Scenario 2' failure datasets. [span_4](start_span)It must prioritize high-accuracy interpretation of structured JSON sensor payloads over conversational prose[span_4](end_span). [span_5](start_span)constraints: The model must achieve >90% accuracy in identifying sensor drift specifically between 20°C and 48°C[span_5](end_span). [span_6](start_span)Use the Sovereign theme to log "VORA RE-PROTOCOLING: DATA-CENTRIC WEIGHTS APPLIED"[span_6](end_span).
 
 CONSTRAINTS
-Every new tenant must have an automated link to the 'Jetson Optimizer' agent for their custom models. Implement PhonePe-integrated subscription tiers (Starter, Pro, Enterprise) as per the monetization strategy.
+Preserve existing code; prefer additive changes.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
