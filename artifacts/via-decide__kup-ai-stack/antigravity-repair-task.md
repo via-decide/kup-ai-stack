@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Document the KUP AI Infrastructure Stack. Create a layered architecture diagram (ASCII or visual):
+Create 'The Pipeline Enforcer' Agent Template in src/templates/pipeline-enforcer.json. Program the LLM to act as a Senior Data Quality Engineer managing the centralized feature store and context engine.
 
 RULES
 1. Audit touched files first and identify regressions.
