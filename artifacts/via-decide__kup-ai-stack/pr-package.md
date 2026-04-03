@@ -1,9 +1,9 @@
-Branch: simba/implement-the-federated-aggregator-in-srcenginew
-Title: Implement the 'Federated-Aggregator' in src/engine/weight-sync.py. Cr...
+Branch: simba/implement-the-cloud-agnostic-adapter-in-srcopsmu
+Title: Implement the 'Cloud-Agnostic-Adapter' in src/ops/multi-cloud.js. Abs...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Federated-Aggregator' in src/engine/weight-sync.py. Create a secure endpoint for founders to push their local .bin weight deltas.
+- Goal: Implement the 'Cloud-Agnostic-Adapter' in src/ops/multi-cloud.js. Abstract the LLM calls into a single SovereignRequest() function.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
