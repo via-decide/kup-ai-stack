@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement a GitHub Actions workflow in .github/workflows/sovereign-gate.yml. This workflow must run every time a founder submits a PR. It should: 1) Run a linter to check for 'Context Rot' patterns, 2) Verify that new code doesn't increase inference latency by >5%, and 3) Ensure all new environment variables are documented.
+Build the 'Collapse Injector' in src/engine/scenario-two-logic.js. [span_7](start_span)This script must deliberately inject "Production Noise" (packet loss, sensor vibration, and 48°C heat) into the data stream, specifically designed to drop model accuracy below the 80% threshold[span_7](end_span). [span_8](start_span)constraints: When active, the 'Scenario Simulator' agent must trigger an alert to the founders stating: "SCENARIO 2 DETECTED: MODEL COLLAPSE IMMINENT. IMPLEMENT DRIFT MITIGATION"[span_8](end_span).
 
 RULES
 1. Audit touched files first and identify regressions.
