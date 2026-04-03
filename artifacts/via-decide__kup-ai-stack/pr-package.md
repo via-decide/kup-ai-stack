@@ -1,9 +1,9 @@
-Branch: simba/implement-the-hybrid-brain-router-in-srcopslaten
-Title: Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. C...
+Branch: simba/implement-the-sovereign-circuit-breaker-in-srcop
+Title: Implement the 'Sovereign Circuit Breaker' in src/ops/circuit-breaker....
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. Create a race condition monitor that pings both the local Vora endpoint and the Gemini API.
+- Goal: Implement the 'Sovereign Circuit Breaker' in src/ops/circuit-breaker.js. Create a state-machine with three states: [CLOSED (Normal)], [OPEN (Local-Only)], and [HALF-OPEN (Test-Cloud)].
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

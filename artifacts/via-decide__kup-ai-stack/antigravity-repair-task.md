@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. Create a race condition monitor that pings both the local Vora endpoint and the Gemini API.
+Implement the 'Sovereign Circuit Breaker' in src/ops/circuit-breaker.js. Create a state-machine with three states: [CLOSED (Normal)], [OPEN (Local-Only)], and [HALF-OPEN (Test-Cloud)].
 
 RULES
 1. Audit touched files first and identify regressions.

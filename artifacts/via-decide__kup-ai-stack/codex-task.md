@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. Create a race condition monitor that pings both the local Vora endpoint and the Gemini API.
+Implement the 'Sovereign Circuit Breaker' in src/ops/circuit-breaker.js. Create a state-machine with three states: [CLOSED (Normal)], [OPEN (Local-Only)], and [HALF-OPEN (Test-Cloud)].
 
 CONSTRAINTS
-Preserve existing code; prefer additive changes.
+- Trip the breaker if 5 consecutive requests to Gemini 1.5 Flash take >800ms. - Use the Sovereign theme to log "CIRCUIT TRIPPED: FAILING OVER TO VORA". - Automatically reset after 5 minutes of stable local operation.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
