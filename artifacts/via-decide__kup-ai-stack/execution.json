@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-the-sovereign-token-optimizer-in-srcai",
+  "branch": "simba/build-the-infrastructure-ai-core-in-srcaiinfrast",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
