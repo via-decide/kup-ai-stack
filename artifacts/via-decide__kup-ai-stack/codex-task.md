@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/global-executor.js.
+Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
 
 CONSTRAINTS
-- Simulate distributed compute across 100 virtual nodes. - Each node processes telemetry streams from 1km highway corridor. - Implement node consensus protocol: Node_state = majority(hash(event_stream)) - If >3 nodes disagree trigger state reconciliation. - Target orchestration throughput >20 events/sec. - Log "GLOBAL_EXECUTOR: DISTRIBUTED_INFRASTRUCTURE_SYNCHRONIZED".
+- Accept burst rates up to 50k events/sec. - Use ring-buffer architecture to avoid heap allocations. - Prevent memory fragmentation during traffic spikes. - If event queue > 95% capacity trigger overflow handler. - Log "BUFFER_STATE: BURST_CAPACITY_PROTECTED".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
