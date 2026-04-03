@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Agent Switchboard' in src/router/agent-router.js. Create a POST /api/playground/chat endpoint that requires an agent_id parameter (e.g., 'edge-architect' or 'pipeline-enforcer'). The router must load the corresponding JSON template from the src/templates/ directory and inject it as the System Prompt for the Zayvora LLM call.
+Update src/middleware/credit-guard.js to recognize a new user role: KUP_FOUNDER. If a user has this role, bypass the PhonePe credit deduction logic and allow unlimited 0-token prompts.
 
 RULES
 1. Audit touched files first and identify regressions.
