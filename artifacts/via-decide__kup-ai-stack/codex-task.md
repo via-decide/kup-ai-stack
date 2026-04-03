@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement 'Data Sharder' in src/data/sharding-engine.js. Automatically split the 100K passage stream into 1,000-vehicle Parquet shards.
+Build the 'Drift Mitigator' in src/engine/kalman-filter.js. Implement a 1D Kalman Filter to estimate the hidden state of tire pressure.
 
 CONSTRAINTS
-Every shard must include a "Quality Signature" derived from the 'Six Dimensions' auditor. Use the Sovereign terminal to log "SHARD [N] GENERATED | INTEGRITY: PASS".
+- Use the standard update equation: $\hat{x}_k = \hat{x}_{k-1} + K_k(z_k - \hat{x}_{k-1})$, where $K_k$ is the Kalman Gain. - The 'Edge Architect' agent must verify that the filter reduces "Scenario 2" variance by >60% without adding >10ms of latency to the Jetson Orin.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
