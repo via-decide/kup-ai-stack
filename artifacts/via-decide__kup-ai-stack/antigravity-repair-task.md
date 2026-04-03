@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
+Implement the 'Federated-Aggregator' in src/engine/weight-sync.py. Create a secure endpoint for founders to push their local .bin weight deltas.
 
 RULES
 1. Audit touched files first and identify regressions.
