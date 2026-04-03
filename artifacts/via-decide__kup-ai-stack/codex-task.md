@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Shadow Mode Comparator' in src/eval/shadow-runner.js. Create a service that ingests live highway data and runs the 'Sovereign' model in the background. It must log every "Predicted Blowout" and then wait for the ground-truth outcome (or manual sensor verification) to calculate real-world precision and recall.
+Implement the 'M4 Resource Warden' in src/ops/load-balancer.js. Create a queue system that limits concurrent LLM inference calls to 8 (the number of performance cores). Founders 9-30 should be placed in a "Sovereign Waiting Room" with a 2-second buffer.
 
 CONSTRAINTS
-Use the Sovereign theme to log "SHADOW DELTA: [X]% IMPROVEMENT". Ensure this data feeds directly into the 'NVIDIA Case Study' generator.
+If the Mac Mini's internal temperature exceeds 90°C, automatically trigger the 'Sanjiwani' failover to the Claude API for all non-critical background tasks. Use the Sovereign theme to log "THERMAL LIMIT REACHED | THROTTLING ACTIVE".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
