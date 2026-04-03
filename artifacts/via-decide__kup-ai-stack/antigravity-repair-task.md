@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Alert Refiner' in src/alerts/context-engine.js. Update the alert pipeline to inject high-signal metadata: include current ambient temperature, vehicle speed, and a "Confidence Interval" ($CI$) for the blowout prediction.
+Implement 'Data Sharder' in src/data/sharding-engine.js. Automatically split the 100K passage stream into 1,000-vehicle Parquet shards.
 
 RULES
 1. Audit touched files first and identify regressions.
