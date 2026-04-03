@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Self-Healing Fleet Monitor' in src/ops/self-heal.js. Develop a service that monitors the health of all 20+ highway lanes. [span_17](start_span)If a Jetson Orin node reports a "Context Rot" or "Training-Serving Skew" anomaly, the system must automatically trigger a remote re-calibration using the digital twin's ground truth. [cite: 5, 21-22]
+Create the 'Quality Reviewer' Agent Template in src/templates/code-reviewer.json. Configure the LLM to act as a Senior MLOps Engineer. [span_9](start_span)[span_10](start_span)It must scan every PR for "Data Pollution" (e.g., hardcoded values, lack of drift detection, or poor JSON structuring)[span_9](end_span)[span_10](end_span).
 
 CONSTRAINTS
-Log all "Self-Healing" events to the Sovereign terminal with high-visibility alerts. [cite_start]Ensure that the 'Sanjiwani' backup to Claude/Codex remains active as a final failsafe for the national network.[span_17](end_span)
+The agent must reject any code that treats AI as a "Chatbot" rather than "Infrastructure." [span_11](start_span)[span_12](start_span)It must demand "Context-Engineered" alerts for every model output[span_11](end_span)[span_12](end_span).
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

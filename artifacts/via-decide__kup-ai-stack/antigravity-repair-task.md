@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Self-Healing Fleet Monitor' in src/ops/self-heal.js. Develop a service that monitors the health of all 20+ highway lanes. [span_17](start_span)If a Jetson Orin node reports a "Context Rot" or "Training-Serving Skew" anomaly, the system must automatically trigger a remote re-calibration using the digital twin's ground truth. [cite: 5, 21-22]
+Create the 'Quality Reviewer' Agent Template in src/templates/code-reviewer.json. Configure the LLM to act as a Senior MLOps Engineer. [span_9](start_span)[span_10](start_span)It must scan every PR for "Data Pollution" (e.g., hardcoded values, lack of drift detection, or poor JSON structuring)[span_9](end_span)[span_10](end_span).
 
 RULES
 1. Audit touched files first and identify regressions.
