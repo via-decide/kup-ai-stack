@@ -1,7 +1,7 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement 'Model-Distillation' in src/engine/distill.py. Use the Gemini 1.5 Flash outputs as 'Soft Targets' to train a lightweight 1D-CNN Student model.
+Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
