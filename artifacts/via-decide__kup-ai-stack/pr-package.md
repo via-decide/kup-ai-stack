@@ -1,9 +1,9 @@
-Branch: simba/build-the-sanjiwani-failover-in-srcmiddlewarellm
-Title: Build the 'Sanjiwani Failover' in src/middleware/llm-fallback.js. Mon...
+Branch: simba/build-the-heat-drift-simulator-in-srcsimheat-inj
+Title: Build the 'Heat-Drift Simulator' in src/sim/heat-injector.js. Create ...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Sanjiwani Failover' in src/middleware/llm-fallback.js. Monitor the health of the local Ollama/Vora instance on port 11434. If latency exceeds 10 seconds or the service crashes, automatically route all founder prompts to the Claude/Codex cloud API.
+- Goal: Build the 'Heat-Drift Simulator' in src/sim/heat-injector.js. Create an API that takes a baseline sensor reading and applies the "Scenario 2" drift coefficient (based on the 20°C to 48°C data-drift findings).
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
