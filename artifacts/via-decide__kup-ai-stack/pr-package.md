@@ -1,9 +1,9 @@
-Branch: simba/create-the-context-refinery-agent-template-in-sr
-Title: Create the 'Context-Refinery' Agent Template in src/templates/refiner...
+Branch: simba/implement-the-data-quality-auditor-in-srcquality
+Title: Implement the 'Data Quality Auditor' in src/quality/six-dimensions.js...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Create the 'Context-Refinery' Agent Template in src/templates/refinery-agent.json. This agent's sole purpose is to "Pre-Process" raw JSON sensor packets. It must strip out non-essential metadata (e.g., redundant timestamps, sensor IDs) and only pass the "High-Signal" delta (pressure/temp changes) to the Vora model.
+- Goal: Implement the 'Data Quality Auditor' in src/quality/six-dimensions.js. Create a validation gate that scores every vehicle passage on: 1) Accuracy, 2) Completeness, 3) Consistency, 4) Timeliness, 5) Validity, and 6) Uniqueness.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
