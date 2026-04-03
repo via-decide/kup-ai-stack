@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create 'The Pipeline Enforcer' Agent Template in src/templates/pipeline-enforcer.json. Program the LLM to act as a Senior Data Quality Engineer managing the centralized feature store and context engine.
+Implement the 'Agent Switchboard' in src/router/agent-router.js. Create a POST /api/playground/chat endpoint that requires an agent_id parameter (e.g., 'edge-architect' or 'pipeline-enforcer'). The router must load the corresponding JSON template from the src/templates/ directory and inject it as the System Prompt for the Zayvora LLM call.
 
 RULES
 1. Audit touched files first and identify regressions.
