@@ -1,9 +1,9 @@
-Branch: simba/implement-the-rul-engine-in-srcenginepredictive-
-Title: Implement the 'RUL-Engine' in src/engine/predictive-maintenance.js. B...
+Branch: simba/build-the-chaos-monkey-stress-tester-in-srcsecur
+Title: Build the 'Chaos-Monkey' stress-tester in src/security/adversarial-in...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'RUL-Engine' in src/engine/predictive-maintenance.js. Build a regression model that estimates the 'Remaining Useful Life' ($RUL$) of a tire.
+- Goal: Build the 'Chaos-Monkey' stress-tester in src/security/adversarial-inject.js. Simulate a 'Man-in-the-Middle' attack injecting false 60 PSI readings into the NH-41 stream.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
