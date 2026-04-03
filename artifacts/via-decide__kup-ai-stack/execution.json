@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/build-the-alert-refiner-in-srcalertscontext-engi",
+  "branch": "simba/implement-data-sharder-in-srcdatasharding-engine",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",

@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Alert Refiner' in src/alerts/context-engine.js. Update the alert pipeline to inject high-signal metadata: include current ambient temperature, vehicle speed, and a "Confidence Interval" ($CI$) for the blowout prediction.
+Implement 'Data Sharder' in src/data/sharding-engine.js. Automatically split the 100K passage stream into 1,000-vehicle Parquet shards.
 
 CONSTRAINTS
-The output must be a structured "Context-Engineered" block that the local Vora model can use to suggest an immediate strategy (e.g., "Slow to 40km/h" vs. "Immediate Stop").
+Every shard must include a "Quality Signature" derived from the 'Six Dimensions' auditor. Use the Sovereign terminal to log "SHARD [N] GENERATED | INTEGRITY: PASS".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
