@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Sanjiwani Failover' in src/middleware/llm-fallback.js. Monitor the health of the local Ollama/Vora instance on port 11434. If latency exceeds 10 seconds or the service crashes, automatically route all founder prompts to the Claude/Codex cloud API.
+Build the 'Heat-Drift Simulator' in src/sim/heat-injector.js. Create an API that takes a baseline sensor reading and applies the "Scenario 2" drift coefficient (based on the 20°C to 48°C data-drift findings).
 
 RULES
 1. Audit touched files first and identify regressions.
