@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Daxini App Packager' in src/dist/app-packager.js. Create a service that bundles a founder's 'Context-Engineered' model into a standardized micro-app manifest for Daxini.Space.
+Build the 'Sanjiwani Failover' in src/middleware/llm-fallback.js. Monitor the health of the local Ollama/Vora instance on port 11434. If latency exceeds 10 seconds or the service crashes, automatically route all founder prompts to the Claude/Codex cloud API.
 
 RULES
 1. Audit touched files first and identify regressions.
