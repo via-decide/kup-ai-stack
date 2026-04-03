@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js. Create a buffer that requires 3 consecutive 'CRITICAL' readings from the Kalman Filter before firing a global alert.
+Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. Create a race condition monitor that pings both the local Vora endpoint and the Gemini API.
 
 CONSTRAINTS
-- Use the formula for confidence: $C = \sum_{i=n-3}^{n} w_i \cdot P_i$ where $w$ is the temporal weight. - Log "CONFIRMED ANOMALY" in the Sovereign theme. - Ensure this logic reduces false-positives by >90% during peak heat.
+Preserve existing code; prefer additive changes.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

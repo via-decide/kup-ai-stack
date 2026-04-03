@@ -1,9 +1,9 @@
-Branch: simba/implement-the-hysteresis-state-machine-in-srceng
-Title: Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js...
+Branch: simba/implement-the-hybrid-brain-router-in-srcopslaten
+Title: Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. C...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js. Create a buffer that requires 3 consecutive 'CRITICAL' readings from the Kalman Filter before firing a global alert.
+- Goal: Implement the 'Hybrid-Brain Router' in src/ops/latency-balancer.js. Create a race condition monitor that pings both the local Vora endpoint and the Gemini API.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
