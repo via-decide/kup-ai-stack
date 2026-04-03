@@ -1,9 +1,9 @@
-Branch: simba/document-the-kup-ai-infrastructure-stack-create-
-Title: Document the KUP AI Infrastructure Stack. Create a layered architectu...
+Branch: simba/create-the-pipeline-enforcer-agent-template-in-s
+Title: Create 'The Pipeline Enforcer' Agent Template in src/templates/pipeli...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Hiring artifact. When engineers see the stack, they know KUP is serious infrastructure, not a prototype.
+- Goal: Create 'The Pipeline Enforcer' Agent Template in src/templates/pipeline-enforcer.json. Program the LLM to act as a Senior Data Quality Engineer managing the centralized feature store and context engine.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
