@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestrator.js. Implement API rate-limiting and database isolation for external SaaS customers.
+Implement the 'Shadow Mode Comparator' in src/eval/shadow-runner.js. Create a service that ingests live highway data and runs the 'Sovereign' model in the background. It must log every "Predicted Blowout" and then wait for the ground-truth outcome (or manual sensor verification) to calculate real-world precision and recall.
 
 CONSTRAINTS
-Use the Sovereign theme to log "TENANT ACCESS: [ID] | QUOTA: [X]%". Ensure the 'KUP_FOUNDER' role remains at 0-cost while external tenants are billed via the PhonePe/Daxini credits.
+Use the Sovereign theme to log "SHADOW DELTA: [X]% IMPROVEMENT". Ensure this data feeds directly into the 'NVIDIA Case Study' generator.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
