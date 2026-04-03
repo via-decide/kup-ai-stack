@@ -1,9 +1,9 @@
-Branch: simba/build-the-regional-profile-manager-in-srcengineg
-Title: Build the 'Regional Profile Manager' in src/engine/geo-config.js. All...
+Branch: simba/implement-the-rul-engine-in-srcenginepredictive-
+Title: Implement the 'RUL-Engine' in src/engine/predictive-maintenance.js. B...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Regional Profile Manager' in src/engine/geo-config.js. Allow the system to load different $K_{gain}$ and $P_{ref}$ constants based on the Site-ID (e.g., Kutch vs. Himachal).
+- Goal: Implement the 'RUL-Engine' in src/engine/predictive-maintenance.js. Build a regression model that estimates the 'Remaining Useful Life' ($RUL$) of a tire.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
