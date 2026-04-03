@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/scaffold-the-edge-as-a-service-eaas-api-in-srcsa",
+  "branch": "simba/implement-the-enterprise-security-layer-in-srcau",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
