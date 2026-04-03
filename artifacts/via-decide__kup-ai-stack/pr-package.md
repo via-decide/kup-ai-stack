@@ -1,9 +1,9 @@
-Branch: simba/implement-the-sovereign-compute-orchestrator-in-
-Title: Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/gl...
+Branch: simba/build-the-burst-telemetry-buffer-in-srcinfraeven
+Title: Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/global-executor.js.
+- Goal: Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
