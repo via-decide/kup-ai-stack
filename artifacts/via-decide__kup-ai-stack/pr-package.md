@@ -1,9 +1,9 @@
-Branch: simba/build-the-heat-drift-simulator-in-srcsimheat-inj
-Title: Build the 'Heat-Drift Simulator' in src/sim/heat-injector.js. Create ...
+Branch: simba/build-the-tenant-guard-middleware-in-srcmiddlewa
+Title: Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestr...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Heat-Drift Simulator' in src/sim/heat-injector.js. Create an API that takes a baseline sensor reading and applies the "Scenario 2" drift coefficient (based on the 20°C to 48°C data-drift findings).
+- Goal: Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestrator.js. Implement API rate-limiting and database isolation for external SaaS customers.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

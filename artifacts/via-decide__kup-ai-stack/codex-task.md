@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Heat-Drift Simulator' in src/sim/heat-injector.js. Create an API that takes a baseline sensor reading and applies the "Scenario 2" drift coefficient (based on the 20°C to 48°C data-drift findings).
+Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestrator.js. Implement API rate-limiting and database isolation for external SaaS customers.
 
 CONSTRAINTS
-The output must be a "Polluted JSON" stream. The 'Scenario Simulator' agent must use this API to test if founder models can maintain >80% accuracy under high-heat noise.
+Use the Sovereign theme to log "TENANT ACCESS: [ID] | QUOTA: [X]%". Ensure the 'KUP_FOUNDER' role remains at 0-cost while external tenants are billed via the PhonePe/Daxini credits.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

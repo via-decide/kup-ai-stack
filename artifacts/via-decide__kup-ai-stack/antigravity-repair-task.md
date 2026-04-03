@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Heat-Drift Simulator' in src/sim/heat-injector.js. Create an API that takes a baseline sensor reading and applies the "Scenario 2" drift coefficient (based on the 20°C to 48°C data-drift findings).
+Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestrator.js. Implement API rate-limiting and database isolation for external SaaS customers.
 
 RULES
 1. Audit touched files first and identify regressions.
