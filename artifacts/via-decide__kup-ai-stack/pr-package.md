@@ -1,9 +1,9 @@
-Branch: simba/build-the-chaos-monkey-stress-tester-in-srcsecur
-Title: Build the 'Chaos-Monkey' stress-tester in src/security/adversarial-in...
+Branch: simba/implement-model-distillation-in-srcenginedistill
+Title: Implement 'Model-Distillation' in src/engine/distill.py. Use the Gemi...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Chaos-Monkey' stress-tester in src/security/adversarial-inject.js. Simulate a 'Man-in-the-Middle' attack injecting false 60 PSI readings into the NH-41 stream.
+- Goal: Implement 'Model-Distillation' in src/engine/distill.py. Use the Gemini 1.5 Flash outputs as 'Soft Targets' to train a lightweight 1D-CNN Student model.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
