@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-the-m4-resource-warden-in-srcopsload-b",
+  "branch": "simba/create-the-context-refinery-agent-template-in-sr",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
