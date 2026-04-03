@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Document the KUP AI Infrastructure Stack. Create a layered architecture diagram (ASCII or visual):
+Create 'The Pipeline Enforcer' Agent Template in src/templates/pipeline-enforcer.json. Program the LLM to act as a Senior Data Quality Engineer managing the centralized feature store and context engine.
 
 CONSTRAINTS
-Must be reproducible (every step documented, no magic). Open-source-first where possible (cheaper, attracts engineers). Must scale from 1 lane (MVP) to 100 lanes (regional deployment).
+The agent must analyze raw sensor streams against the 6 quality dimensions and immediately flag missing timestamps or corruption.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
