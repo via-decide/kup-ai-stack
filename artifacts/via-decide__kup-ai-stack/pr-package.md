@@ -1,9 +1,9 @@
-Branch: simba/build-the-sovereign-firewall-in-srcsecuritywarde
-Title: Build the 'Sovereign Firewall' in src/security/warden.sh. Implement a...
+Branch: simba/implement-the-ministry-dashboard-in-srcwebgovern
+Title: Implement the 'Ministry Dashboard' in src/web/government-portal.js. C...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Sovereign Firewall' in src/security/warden.sh. Implement a rate-limiting rule that drops any IP making >100 requests per minute unless they carry a 'Founder-Key.'
+- Goal: Implement the 'Ministry Dashboard' in src/web/government-portal.js. Create a high-signal, dark-mode visualization of: 1) Total Lives Protected, 2) Blowouts Prevented, and 3) Economic Savings for the Transport Sector.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

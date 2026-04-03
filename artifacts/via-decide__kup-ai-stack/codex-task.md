@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Sovereign Firewall' in src/security/warden.sh. Implement a rate-limiting rule that drops any IP making >100 requests per minute unless they carry a 'Founder-Key.'
+Implement the 'Ministry Dashboard' in src/web/government-portal.js. Create a high-signal, dark-mode visualization of: 1) Total Lives Protected, 2) Blowouts Prevented, and 3) Economic Savings for the Transport Sector.
 
 CONSTRAINTS
-- Log "INTRUSION BLOCKED: [IP]" in the Sovereign theme. - Ensure the 'Hybrid-Brain Router' remains in the whitelist to prevent the 'Orchestration Hang' from being triggered by the firewall itself.
+- Ensure the data is pulled directly from the 'Hysteresis Machine' to guarantee 100% truth. - Include a 'Physical Site Live' status that pulses every time a vehicle passes the NH-41 sensor.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
