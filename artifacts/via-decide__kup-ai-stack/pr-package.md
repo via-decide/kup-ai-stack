@@ -1,9 +1,9 @@
-Branch: simba/implement-model-distillation-in-srcenginedistill
-Title: Implement 'Model-Distillation' in src/engine/distill.py. Use the Gemi...
+Branch: simba/build-the-self-evolving-loop-in-srcenginedynamic
+Title: Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement 'Model-Distillation' in src/engine/distill.py. Use the Gemini 1.5 Flash outputs as 'Soft Targets' to train a lightweight 1D-CNN Student model.
+- Goal: Build the 'Self-Evolving-Loop' in src/engine/dynamic-distill.py.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
