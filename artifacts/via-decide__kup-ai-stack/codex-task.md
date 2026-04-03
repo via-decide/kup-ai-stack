@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Enterprise Security Layer' in src/auth/enterprise-guard.js. Add multi-factor authentication (MFA) and data encryption-at-rest for sensor payloads uploaded by external IoT customers.
+Implement a GitHub Actions workflow in .github/workflows/sovereign-gate.yml. This workflow must run every time a founder submits a PR. It should: 1) Run a linter to check for 'Context Rot' patterns, 2) Verify that new code doesn't increase inference latency by >5%, and 3) Ensure all new environment variables are documented.
 
 CONSTRAINTS
-Ensure this security layer meets the "Reference Architecture" standards for physical infrastructure (ports, highways, utilities). Log all access attempts via the terminal-logger in the Sovereign dark-mode theme.
+If a PR fails the latency check, the 'Edge Architect' agent must automatically comment on the PR with optimization suggestions.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
