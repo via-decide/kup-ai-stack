@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Scaffold the 'Edge-as-a-Service' (EaaS) API in src/saas/edge-platform-api.js. Create a multi-tenant architecture that allows external customers to upload their own sensor models for quantization and edge deployment via the Jetson Optimizer.
+Implement the 'Enterprise Security Layer' in src/auth/enterprise-guard.js. Add multi-factor authentication (MFA) and data encryption-at-rest for sensor payloads uploaded by external IoT customers.
 
 CONSTRAINTS
-Implement a "Usage-Based Billing" placeholder that connects to the PhonePe API for future monetization. This must be strictly additive and not interfere with the 0-token KUP Founder bypass.
+Ensure this security layer meets the "Reference Architecture" standards for physical infrastructure (ports, highways, utilities). Log all access attempts via the terminal-logger in the Sovereign dark-mode theme.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
