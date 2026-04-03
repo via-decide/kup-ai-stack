@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-the-quality-reviewer-agent-template-in-sr",
+  "branch": "simba/implement-the-sovereign-feature-store-in-srcfeat",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
