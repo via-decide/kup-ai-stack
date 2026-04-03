@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Regional Profile Manager' in src/engine/geo-config.js. Allow the system to load different $K_{gain}$ and $P_{ref}$ constants based on the Site-ID (e.g., Kutch vs. Himachal).
+Implement the 'RUL-Engine' in src/engine/predictive-maintenance.js. Build a regression model that estimates the 'Remaining Useful Life' ($RUL$) of a tire.
 
 CONSTRAINTS
-- Use a JSON config for "Regional Baselines" (e.g., 48°C for Gujarat, 15°C for Leh). - Ensure the 'Hybrid-Brain Router' can switch profiles in <10ms.
+- Use the degradation formula: $RUL = \frac{P_{current} - P_{critical}}{\alpha \cdot \Delta T + \beta \cdot \frac{dP}{dt}}$. - Log "PREDICTION: BLOWOUT IN [X] KM" in the Sovereign terminal. - Ensure the model footprint is <5MB to keep the M4 Mac Mini RAM free for orchestration.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Regional Profile Manager' in src/engine/geo-config.js. Allow the system to load different $K_{gain}$ and $P_{ref}$ constants based on the Site-ID (e.g., Kutch vs. Himachal).
+Implement the 'RUL-Engine' in src/engine/predictive-maintenance.js. Build a regression model that estimates the 'Remaining Useful Life' ($RUL$) of a tire.
 
 RULES
 1. Audit touched files first and identify regressions.
