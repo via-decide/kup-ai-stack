@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
+Build the 'Sovereign Context Compressor' in src/ai/context-refinery.js.
 
 CONSTRAINTS
-- Accept burst rates up to 50k events/sec. - Use ring-buffer architecture to avoid heap allocations. - Prevent memory fragmentation during traffic spikes. - If event queue > 95% capacity trigger overflow handler. - Log "BUFFER_STATE: BURST_CAPACITY_PROTECTED".
+- Compress LLM prompts using entropy filtering. - Remove redundant token clusters using frequency scoring: Token_weight = occurrence / entropy - Target 85% token reduction for infrastructure telemetry streams. - Must maintain semantic fidelity > 0.92 cosine similarity. - Log "CONTEXT_REFINED: TOKEN_STREAM_OPTIMIZED".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
