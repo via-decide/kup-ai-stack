@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/build-the-sanjiwani-failover-in-srcmiddlewarellm",
+  "branch": "simba/build-the-heat-drift-simulator-in-srcsimheat-inj",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
