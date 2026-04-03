@@ -1,9 +1,9 @@
-Branch: simba/implement-the-sovereign-token-optimizer-in-srcai
-Title: Implement the 'Sovereign-Token-Optimizer' in src/ai/token_refinery.js.
+Branch: simba/build-the-infrastructure-ai-core-in-srcaiinfrast
+Title: Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intellige...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Sovereign-Token-Optimizer' in src/ai/token_refinery.js.
+- Goal: Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intelligence.py.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
