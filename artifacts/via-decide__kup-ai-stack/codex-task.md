@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Sovereign-Token-Optimizer' in src/ai/token_refinery.js.
+Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intelligence.py.
 
 CONSTRAINTS
-- Reduce prompt size by removing redundant telemetry tokens. - Use entropy filtering to maintain semantic fidelity. - Target compression ratio ≥ 80%. - Maintain response accuracy ≥ 0.9 cosine similarity. - Log "TOKEN_EFFICIENCY: 80_PERCENT_REDUCTION".
+- Analyze sensor streams to detect anomalies: under-inflated tires axle overload abnormal vibration signatures - Implement anomaly scoring: anomaly_score = Σ(weight_i × feature_i) - Trigger alert if anomaly_score > threshold. - Log "INFRA_ALERT: ANOMALY_DETECTED | VEHICLE_ID".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
