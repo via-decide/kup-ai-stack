@@ -1,9 +1,9 @@
-Branch: simba/implement-data-sharder-in-srcdatasharding-engine
-Title: Implement 'Data Sharder' in src/data/sharding-engine.js. Automaticall...
+Branch: simba/build-the-drift-mitigator-in-srcenginekalman-fil
+Title: Build the 'Drift Mitigator' in src/engine/kalman-filter.js. Implement...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement 'Data Sharder' in src/data/sharding-engine.js. Automatically split the 100K passage stream into 1,000-vehicle Parquet shards.
+- Goal: Build the 'Drift Mitigator' in src/engine/kalman-filter.js. Implement a 1D Kalman Filter to estimate the hidden state of tire pressure.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
