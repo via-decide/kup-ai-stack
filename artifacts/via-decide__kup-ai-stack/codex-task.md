@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Physical Alert Bridge' in src/alerts/print-by-dd-link.js. When Vora identifies a high-probability blowout risk (>90%), the system must automatically generate a 3D-printable "Hazard Tag" or "QR-Alert Token" manifest for the PrintByDD interface.
+Implement the 'Self-Healing Fleet Monitor' in src/ops/self-heal.js. Develop a service that monitors the health of all 20+ highway lanes. [span_17](start_span)If a Jetson Orin node reports a "Context Rot" or "Training-Serving Skew" anomaly, the system must automatically trigger a remote re-calibration using the digital twin's ground truth. [cite: 5, 21-22]
 
 CONSTRAINTS
-Use the Sovereign theme to log "PHYSICAL ARTIFACT QUEUED: PRINTBYDD". This bridges the gap between digital detection and physical tactile evidence for highway operators.
+Log all "Self-Healing" events to the Sovereign terminal with high-visibility alerts. [cite_start]Ensure that the 'Sanjiwani' backup to Claude/Codex remains active as a final failsafe for the national network.[span_17](end_span)
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
