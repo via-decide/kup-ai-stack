@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Create the 'Quality Reviewer' Agent Template in src/templates/code-reviewer.json. Configure the LLM to act as a Senior MLOps Engineer. [span_9](start_span)[span_10](start_span)It must scan every PR for "Data Pollution" (e.g., hardcoded values, lack of drift detection, or poor JSON structuring)[span_9](end_span)[span_10](end_span).
+Implement the 'Sovereign Feature Store' in src/features/store-manager.js. [span_6](start_span)Create a centralized service that extracts identical vehicle passage features (pressure, temp-drift, speed) for both training (Digital Twin) and serving (Edge Jetson).[span_6](end_span)
 
 CONSTRAINTS
-The agent must reject any code that treats AI as a "Chatbot" rather than "Infrastructure." [span_11](start_span)[span_12](start_span)It must demand "Context-Engineered" alerts for every model output[span_11](end_span)[span_12](end_span).
+Use the Sovereign theme to log feature extraction latency. [span_7](start_span)[span_8](start_span)If the training/serving features deviate by >1%, trigger a 'Skew Alert' to the 'Quality Reviewer' agent.[span_7](end_span)[span_8](end_span)
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
