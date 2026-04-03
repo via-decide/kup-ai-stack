@@ -1,9 +1,9 @@
-Branch: simba/build-the-tenant-guard-middleware-in-srcmiddlewa
-Title: Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestr...
+Branch: simba/implement-the-shadow-mode-comparator-in-srcevals
+Title: Implement the 'Shadow Mode Comparator' in src/eval/shadow-runner.js. ...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestrator.js. Implement API rate-limiting and database isolation for external SaaS customers.
+- Goal: Implement the 'Shadow Mode Comparator' in src/eval/shadow-runner.js. Create a service that ingests live highway data and runs the 'Sovereign' model in the background. It must log every "Predicted Blowout" and then wait for the ground-truth outcome (or manual sensor verification) to calculate real-world precision and recall.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
