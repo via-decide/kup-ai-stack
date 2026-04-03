@@ -1,9 +1,9 @@
-Branch: simba/build-the-burst-telemetry-buffer-in-srcinfraeven
-Title: Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
+Branch: simba/build-the-sovereign-context-compressor-in-srcaic
+Title: Build the 'Sovereign Context Compressor' in src/ai/context-refinery.js.
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Burst Telemetry Buffer' in src/infra/event-buffer.cpp.
+- Goal: Build the 'Sovereign Context Compressor' in src/ai/context-refinery.js.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
