@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Daxini App Packager' in src/dist/app-packager.js. Create a service that bundles a founder's 'Context-Engineered' model into a standardized micro-app manifest for Daxini.Space.
+Build the 'Sanjiwani Failover' in src/middleware/llm-fallback.js. Monitor the health of the local Ollama/Vora instance on port 11434. If latency exceeds 10 seconds or the service crashes, automatically route all founder prompts to the Claude/Codex cloud API.
 
 CONSTRAINTS
-The manifest must include a "Trust Score" based on the 'Scenario 2' recovery metrics. [span_2](start_span)[span_3](start_span)Use the Sovereign theme to log "APP DEPLOYED TO DAXINI: [PROJECT_ID]".[span_2](end_span)[span_3](end_span)
+Use the Sovereign theme to log "CRITICAL: SANJIWANI FALLBACK ACTIVE". This ensures the 30 founders never lose momentum, even if the local server hits its limit.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
