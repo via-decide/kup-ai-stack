@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Create 'The Pipeline Enforcer' Agent Template in src/templates/pipeline-enforcer.json. Program the LLM to act as a Senior Data Quality Engineer managing the centralized feature store and context engine.
+Implement the 'Agent Switchboard' in src/router/agent-router.js. Create a POST /api/playground/chat endpoint that requires an agent_id parameter (e.g., 'edge-architect' or 'pipeline-enforcer'). The router must load the corresponding JSON template from the src/templates/ directory and inject it as the System Prompt for the Zayvora LLM call.
 
 CONSTRAINTS
-The agent must analyze raw sensor streams against the 6 quality dimensions and immediately flag missing timestamps or corruption.
+Use the "Sovereign" dark-mode theme for terminal logging to show which agent is being invoked. Ensure that the agent's identity is "locked" for the duration of the session to prevent context bleeding between curriculum tasks.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
