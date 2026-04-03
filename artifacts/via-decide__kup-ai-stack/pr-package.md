@@ -1,9 +1,9 @@
-Branch: simba/build-the-infrastructure-ai-core-in-srcaiinfrast
-Title: Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intellige...
+Branch: simba/implement-the-sovereign-compute-orchestrator-in-
+Title: Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/gl...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intelligence.py.
+- Goal: Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/global-executor.js.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Build the 'Infrastructure-AI-Core' in src/ai/infrastructure_intelligence.py.
+Implement the 'Sovereign Compute Orchestrator' in src/orchestrator/global-executor.js.
 
 CONSTRAINTS
-- Analyze sensor streams to detect anomalies: under-inflated tires axle overload abnormal vibration signatures - Implement anomaly scoring: anomaly_score = Σ(weight_i × feature_i) - Trigger alert if anomaly_score > threshold. - Log "INFRA_ALERT: ANOMALY_DETECTED | VEHICLE_ID".
+- Simulate distributed compute across 100 virtual nodes. - Each node processes telemetry streams from 1km highway corridor. - Implement node consensus protocol: Node_state = majority(hash(event_stream)) - If >3 nodes disagree trigger state reconciliation. - Target orchestration throughput >20 events/sec. - Log "GLOBAL_EXECUTOR: DISTRIBUTED_INFRASTRUCTURE_SYNCHRONIZED".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
