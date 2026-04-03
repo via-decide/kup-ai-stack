@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Sovereign Circuit Breaker' in src/ops/circuit-breaker.js. Create a state-machine with three states: [CLOSED (Normal)], [OPEN (Local-Only)], and [HALF-OPEN (Test-Cloud)].
+Build the 'Sovereign Firewall' in src/security/warden.sh. Implement a rate-limiting rule that drops any IP making >100 requests per minute unless they carry a 'Founder-Key.'
 
 CONSTRAINTS
-- Trip the breaker if 5 consecutive requests to Gemini 1.5 Flash take >800ms. - Use the Sovereign theme to log "CIRCUIT TRIPPED: FAILING OVER TO VORA". - Automatically reset after 5 minutes of stable local operation.
+- Log "INTRUSION BLOCKED: [IP]" in the Sovereign theme. - Ensure the 'Hybrid-Brain Router' remains in the whitelist to prevent the 'Orchestration Hang' from being triggered by the firewall itself.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
