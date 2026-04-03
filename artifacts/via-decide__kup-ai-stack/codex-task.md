@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Auto-Tuner' in src/engine/kalman-tuner.js. Create a feedback loop where the 'Edge Architect' agent analyzes the residual error of the Kalman Filter.
+Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js. Create a buffer that requires 3 consecutive 'CRITICAL' readings from the Kalman Filter before firing a global alert.
 
 CONSTRAINTS
-- The agent must adjust the $R$ parameter dynamically as the temperature $T$ moves from 20°C to 48°C.
+- Use the formula for confidence: $C = \sum_{i=n-3}^{n} w_i \cdot P_i$ where $w$ is the temporal weight. - Log "CONFIRMED ANOMALY" in the Sovereign theme. - Ensure this logic reduces false-positives by >90% during peak heat.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

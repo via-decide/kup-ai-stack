@@ -1,9 +1,9 @@
-Branch: simba/implement-the-auto-tuner-in-srcenginekalman-tune
-Title: Implement the 'Auto-Tuner' in src/engine/kalman-tuner.js. Create a fe...
+Branch: simba/implement-the-hysteresis-state-machine-in-srceng
+Title: Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-stack
-- Goal: Implement the 'Auto-Tuner' in src/engine/kalman-tuner.js. Create a feedback loop where the 'Edge Architect' agent analyzes the residual error of the Kalman Filter.
+- Goal: Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js. Create a buffer that requires 3 consecutive 'CRITICAL' readings from the Kalman Filter before firing a global alert.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

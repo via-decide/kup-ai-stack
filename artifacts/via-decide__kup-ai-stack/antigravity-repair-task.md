@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Auto-Tuner' in src/engine/kalman-tuner.js. Create a feedback loop where the 'Edge Architect' agent analyzes the residual error of the Kalman Filter.
+Implement the 'Hysteresis State-Machine' in src/engine/alert-logic.js. Create a buffer that requires 3 consecutive 'CRITICAL' readings from the Kalman Filter before firing a global alert.
 
 RULES
 1. Audit touched files first and identify regressions.
