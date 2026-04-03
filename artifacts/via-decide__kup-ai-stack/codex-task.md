@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'M4 Resource Warden' in src/ops/load-balancer.js. Create a queue system that limits concurrent LLM inference calls to 8 (the number of performance cores). Founders 9-30 should be placed in a "Sovereign Waiting Room" with a 2-second buffer.
+Create the 'Context-Refinery' Agent Template in src/templates/refinery-agent.json. This agent's sole purpose is to "Pre-Process" raw JSON sensor packets. It must strip out non-essential metadata (e.g., redundant timestamps, sensor IDs) and only pass the "High-Signal" delta (pressure/temp changes) to the Vora model.
 
 CONSTRAINTS
-If the Mac Mini's internal temperature exceeds 90°C, automatically trigger the 'Sanjiwani' failover to the Claude API for all non-critical background tasks. Use the Sovereign theme to log "THERMAL LIMIT REACHED | THROTTLING ACTIVE".
+Use the Sovereign theme to log "SIGNAL PURIFIED: [X] bytes removed". This reduces token usage by 30%, preserving the 'Decision Budget' for complex reasoning.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
