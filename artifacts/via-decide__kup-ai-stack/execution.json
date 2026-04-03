@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-stack",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-a-github-actions-workflow-in-githubwor",
+  "branch": "simba/build-the-collapse-injector-in-srcenginescenario",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
