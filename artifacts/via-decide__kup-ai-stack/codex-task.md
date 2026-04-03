@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Develop the 'Alert Escalation' service in src/alerts/escalation-logic.js. [span_21](start_span)When the TPM model detects a 40% under-inflation blowout risk[span_21](end_span), the system must generate a structured context-engineered alert and send it to the 'Sprint Master' Telegram bot for human verification.
+Scaffold the 'Edge-as-a-Service' (EaaS) API in src/saas/edge-platform-api.js. Create a multi-tenant architecture that allows external customers to upload their own sensor models for quantization and edge deployment via the Jetson Optimizer.
 
 CONSTRAINTS
-The response time from detection to Telegram alert must be under 2 seconds. Use the Sovereign theme to log "CRITICAL ALERT: HUMAN VERIFICATION PENDING".
+Implement a "Usage-Based Billing" placeholder that connects to the PhonePe API for future monetization. This must be strictly additive and not interfere with the 0-token KUP Founder bypass.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
