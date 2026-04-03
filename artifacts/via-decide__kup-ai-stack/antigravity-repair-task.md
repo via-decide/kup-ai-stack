@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Tenant Guard' middleware in src/middleware/tenant-orchestrator.js. Implement API rate-limiting and database isolation for external SaaS customers.
+Implement the 'Shadow Mode Comparator' in src/eval/shadow-runner.js. Create a service that ingests live highway data and runs the 'Sovereign' model in the background. It must log every "Predicted Blowout" and then wait for the ground-truth outcome (or manual sensor verification) to calculate real-world precision and recall.
 
 RULES
 1. Audit touched files first and identify regressions.
