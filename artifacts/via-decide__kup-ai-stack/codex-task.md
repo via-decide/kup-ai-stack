@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-stack on branch main.
 
 MISSION
-Implement the 'Federated-Aggregator' in src/engine/weight-sync.py. Create a secure endpoint for founders to push their local .bin weight deltas.
+Implement the 'Cloud-Agnostic-Adapter' in src/ops/multi-cloud.js. Abstract the LLM calls into a single SovereignRequest() function.
 
 CONSTRAINTS
-- Use the 'FedAvg' algorithm: $w_{t+1} = \sum_{k=1}^{K} \frac{n_k}{n} w_{t+1}^k$. - Verify the 'Sovereign-ID' of each node before merging to prevent 'Model Poisoning.' - Log "MASTER MODEL UPDATED: GLOBAL_ACCURACY: [X]%" in the terminal.
+- Implement 'Hot-Swapping' logic that switches providers in <50ms based on 'Cost-per-Token' and 'Latency.' - Maintain the ₹36.75 efficiency target regardless of the provider. - Log "PROVIDER_SWITCHED: [OLD_PROVIDER] -> [NEW_PROVIDER]".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
